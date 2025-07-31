@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-black">
+
+  <!-- navbar starts here -->
+
+    <div class="w-full h-[72px] bg-black flex items-center">
+     
+        <img class="h-9 w-31 ml-4" src="https://newsroom.spotify.com/wp-content/themes/ftr/assets/images/spotify-logo.png" alt="Spotify">
+         
+<!-- search bar-->
+
+<div class="h-[52px] w-[500px] bg-[#1f1f1f] ml-4 rounded-4xl hover:border hover:border-white ">
+ 
+    <div class="flex items-center">
+        <div class="text-white ml-3 text-2xl mt-2.5 hover:cursor-pointer">
+         <i class="fa-solid fa-magnifying-glass"></i>
+     </div>
+     <div>
+      <input class="ml-6 mt-2.5 w-[400px] h-8 text-white focus:outline-none" type="text" placeholder="What do you want to play?">
+      </div>
+      <div class="text-white text-2xl hover:cursor-pointer mt-2">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+</div>
+
+      <div class="text-white flex ml-[290px] items-center">
+        <p class="mr-4 hover:font-bold hover:cursor-pointer">Premium</p>
+        <p class="mr-4 hover:font-bold hover:cursor-pointer">Support</p>
+        <p class="hover:font-bold hover:cursor-pointer">Download</p>
+        <p class=" text-white ml-6 text-3xl mb-2"> | </p>
+        
+        <div class="items-center ml-5 flex mt-1">
+        <i class="fa-solid fa-circle-down"></i>
+         </div>
+        <p class="ml-1.5 text-sm  font-semibold hover:font-bold hover:cursor-pointer">Install App</p>
+        <p class="ml-8 font-semibold text-sm hover:font-bold hover:cursor-pointer"> Sign up </p>
+        <div class="bg-white rounded-3xl text-black ml-[40px] h-13 w-22 text-center items-center hover:cursor-pointer">
+        <p class="p-3 font-bold"> Log in </p>
+        </div>
+       
+      </div>
+    </div>
+
+    <!-- navbar ends here -->
+
+    <!-- hero section starts here -->
+    <div class="w-[420px] h-[85px] bg-[#1a1a1a] rounded-t-xl ml-1.5 mt-0.5">
+    <div class="flex items-center">
+  <p class="font-bold text-white pl-3 pt-4">Your Library</p>
+
+  <div class="ml-auto pr-4 pt-3">
+    <div class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-700 cursor-pointer transition mt-2">
+      <i class="fa-solid fa-plus text-white text-md"></i>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="w-[420px] h-[350.2px] bg-[#1a1a1a] ml-1.5 hover:overflow-y-scroll overflow-x-hidden">
+         
+
+        <div class="bg-[#2f2f2f] w-[350px] h-[140px] rounded-2xl ml-6">
+
+            <p class="pt-3 pl-3  text-white font-bold"> Create your first playlist </p>
+            <p class="text-sm text-white pl-3 pt-3"> It's easy,we'll help you</p>
+
+            <div class="bg-white w-[120px] h-[35px] rounded-2xl mt-5 ml-2 text-black font-bold hover:cursor-pointer">
+               <p class="pt-1  pl-1.5">Create playlist</p>
+            </div>
+        </div>
+
+          <div class="bg-[#2f2f2f] w-[350px] h-[140px] rounded-2xl ml-6 mt-5 ">
+            <p class="pt-3 pl-3  text-white font-bold">Let's find some podcast to follow </p>
+            <p class="text-sm text-white pl-3 pt-3"> We'll keep you updated on new episodes </p>
+
+             <div class="bg-white w-[150px] h-[35px] rounded-2xl mt-5 ml-2 text-black font-bold hover:cursor-pointer">
+               <p class="pt-1  pl-3">Browse Podcasts</p>
+            </div>
+        </div>
+
+         <div class="bg-[#2f2f2f] w-[350px] h-[140px] rounded-2xl ml-6 mt-5 ">
+            <p class="pt-3 pl-3  text-white font-bold">Add songs you love</p>
+            <p class="text-sm text-white pl-3 pt-3"> Save your favorite tracks here and listen anytime</p>
+
+             <div class="bg-white w-[130px] h-[35px] rounded-2xl mt-5 ml-2 text-black font-bold hover:cursor-pointer">
+               <p class="pt-1  pl-5">Liked Songs</p>
+            </div>
+        </div>
+    </div>
+
+  <div class="bg-[#1a1a1a] w-[420px] h-[190px] rounded-b-2xl">
+
+    <span class="flex text-[11px] text-[#b3b3b3]">
+     <a href="#" class="pt-6 pl-5">Legal</a>
+     <a href="#" class="pt-6 pl-5">Safety & Privacy Center</a>
+     <a href="#" class="pt-6 pl-5">Privacy Policy</a>
+     <a href="#" class="pt-6 pl-5">Cookies</a>
+
+    </span>
+
+    <span class="flex text-[11px] text-[#b3b3b3]">
+     <a href="#" class="pt-4 pl-5">About Ads</a>
+     <a href="#" class="pt-4 pl-5"> Accessibility</a>
+    </span>
+
+    <span class="flex text-[13px] text-white hover:underline">
+     <a href="#" class="pt-4 pl-5">Cookies</a>
+    </span>
+
+    <div class="flex text-white text-[16px] ml-7  mt-7  w-[100px]  h-[40px]   border border-white rounded-3xl hover:cursor-pointer hover:border-2">
+       <i class="fa-solid fa-globe pl-3.5 pt-3"></i>
+       <P class="pt-1.5 pl-1">English</P>
+    </div>
+  </div>
+
+  <div>
+
+  </div>
+
+<!-- 
+main section start here -->
+
+  <div class="absolute top-14 ml-[440px] mr-4 mt-4 bg-[#2f2f2f] h-[626px] w-[1070px] rounded-xl z-10 overflow-y-scroll">
+
+   <div>
+        <p class="text-white text-2xl font-bold mt-7 ml-7 hover:underline hover:cursor-pointer">Trending Songs</p>
+
+        <div class="flex  hover:cursor-pointer" >
+          
+            <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://i.scdn.co/image/ab67616d0000b273a7e251b543c77a6ed356dfbe" alt="Saiyaara">
+            <p class="mt-2 text-white font-semibold pl-5">Saiyaara (From "Saiyaara")</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Tanishk Bagchi,
+              Faheem Abdullah, Arslan Nizami</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/lJvKa16KDV/vKadgALxbD/size_l.jpg" alt="dhun">
+            <p class="mt-2 text-white font-semibold pl-5">Dhun (From "Saiyaara")</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Mithoon,
+Arijit Singh</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/w4MKPObojg/MKP8qjAGKo/size_l.jpg" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Tum Ho Toh (From "Saiyaara")</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Vishal Mishra,
+Hansika Pareek,
+Raj Shekhar</p>
+            </div>
+
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/qa4WEkqKP1/4WEyZzagWP/size_l_1749539042.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Barbaad (From "Saiyaara")</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5">The Rish,
+Jubin Nautiyal</p>
+            </div>
+
+            
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/song/zLp36PvbrG/p36xj5y0br/size_l_1750855409.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Humsafar (From "Saiyaara")
+</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5">Sachet-Parampara,
+Sachet Tandon,
+Parampara Tandon</p>
+            </div>
+
+
+        </div>
+
+
+        
+
+   </div>
+
+    <div>
+        <p class="text-white text-2xl font-bold mt-7 ml-9 hover:underline hover:cursor-pointer">Popular artists</p>
+
+        <div class="flex hover:cursor-pointer">
+          
+            <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-full w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/artists/zLp36PvbrG/Lp36AR0KrG/size_l_1716815534.webp" alt="Saiyaara">
+            <p class="mt-2 text-white font-semibold pl-5">Pritam</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5"> Artist</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-full w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/artists/9En3pqeWXD/En3pQZ9WXD/size_l_1716893835.webp" alt="dhun">
+            <p class="mt-2 text-white font-semibold pl-5">AR Rahman</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Artist</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-full w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_l_1739172212.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Arijit Singh</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Artist</p>
+            </div>
+
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-full w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/artists/w4MKPDOKoj/4MKPgoQgbo/size_l_1742211226.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Yo Yo Honey Singh</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5">Artist</p>
+            </div>
+
+             <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-full w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/artists/21GWwrR3pk/1GWwknpWpk/size_l_1738236865.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Atif Aslam</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5">Artist</p>
+            </div>
+
+
+        </div>
+   </div>
+
+     <div>
+        <p class="text-white text-2xl font-bold mt-7 ml-7 hover:underline hover:cursor-pointer">Popular albums & singles</p>
+
+        <div class="flex hover:cursor-pointer">
+          
+            <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/d41WjnWPLq/41Wjz1LOWP/size_l_1712905431.webp" alt="Saiyaara">
+            <p class="mt-2 text-white font-semibold pl-5">Aashiqui 2</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Mithoon,
+Jeet Gannguli,
+Ankit Tiwari</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/qa4WEqWP1p/4WEk6zAMKP/size_l_1747318041.webp" alt="dhun">
+            <p class="mt-2 text-white font-semibold pl-5">
+Sanam Teri Kasam </p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Himesh Reshammiya,
+Sameer Anjaan,
+Subrat Sinha</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/Oxd3xzPbgV/d3xDo1oE3g/size_l_1735999419.jpg" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Finding Her</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5">Kushagra,
+Bharath,
+Saaheal</p>
+            </div>
+
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/dwN398KDPa/N3942nNvKD/size_l.jpg" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Making Memories
+</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5">Karan Aujla,
+Ikky,
+Preston Pablo,
+Yarah</p>
+            </div>
+
+
+            
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_img/albums/21GWwrR3pk/GWwkAX0QWp/size_l_1740409545.jpg" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Young G.O.A.T
+
+</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5">Cheema Y,
+Gur Sidhu,
+Jasmeen Akhtar,
+Deepak Dhillon</p>
+            </div>
+
+        </div>
+
+
+
+          <div>
+        <p class="text-white text-2xl font-bold mt-7 ml-7 hover:underline hover:cursor-pointer">Most Streamed Songs 2024</p>
+
+        <div class="flex hover:cursor-pointer">
+          
+            <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_pl_img/playlists/ZaP37RKDy7/P375l2YRbD/size_l_1733817568.webp" alt="Saiyaara">
+            <p class="mt-2 text-white font-semibold pl-3">Hindi Top 100 - 2024 Songs</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-3"> 100 Tracks</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_pl_img/playlists/mGjKrP1W6z/jKrGjw7J36/size_l_1733821151.webp" alt="dhun">
+            <p class="mt-2 text-white font-semibold pl-3">Punjabi Top 100 - 2024 Songs
+</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-3">100 Tracks</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_pl_img/playlists/w4MKPObojg/MKPo8qRObo/size_l_1733827710.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">English Top 100 - 2024 Songs
+</p>
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5"> 100 Tracks</p>
+            </div>
+
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_pl_img/playlists/g4w3vr3jJB/w3vkJj6jWj/size_l_1733826514.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Hindi Romance Top 50 - 2024 Songs
+
+</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5"> 50 Tracks</p>
+            </div>
+
+
+            
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://a10.gaanacdn.com/gn_pl_img/playlists/YoEWlwa3zX/EWl0zqAmWz/size_l_1733908455.webp" alt="">
+            <p class="mt-2 text-white font-semibold pl-5">Punjabi Dance Top 50 - 2024 Songs
+
+
+</p>
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5"> 50 Tracks</p>
+            </div>
+
+        </div>
+
+
+        
+ 
+          <div>
+        <p class="text-white text-2xl font-bold mt-7 ml-7 hover:underline hover:cursor-pointer">Popular radio</p>
+
+        <div class="flex hover:cursor-pointer">
+          
+            <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en" alt="Saiyaara">
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-3"> With Sachin-Jigar, Jeet Gannguli, Atif Aslam and more</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en" alt="dhun">
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-3">With Pritam, Mustafa Zahid, Atif Aslam and more</p>
+            </div>
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en" alt="">
+            <p class="text-sm pt-2 text-[#b3b3b3] pl-5"> With Sonu Nigam, A.R. Rahman, Atif Aslam and more
+</p>
+            </div>
+
+
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en" alt="">
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5"> With Kumar Sanu, Vinod Rathod, Udit Narayan and more
+</p>
+            </div>
+
+
+            
+               <div class="h-[285px] w-[190px] ml-5 mt-6 hover:border hover:border-[#3f3f3f] hover:rounded-xl hover:bg-[#444444]">
+            <img class="rounded-t-md w-[180px] pl-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eEaWGypNRXJO8mEo5irgaQzQ0RRgWRykGw&s" alt="">
+            <p class="text-sm  pt-2 text-[#b3b3b3] pl-5"> With Karan Aujla, AP Dhillon, Juss and more
+</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="flex mt-11 border-[0.5px] border-t-[#3f3f3f] justify-evenly border-b-[#3f3f3f]">
+       
+         <div class="h-[240px] w-[150px]">
+       <p class="text-white font-bold ml-8 pt-7"> Company</p>
+        <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> About </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Jobs </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> For the Record </p>
+
+          </div>
+
+
+         <div class="h-[240px] w-[150px]">
+       <p class="text-white font-bold ml-8 pt-7"> Communities</p>
+        <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> For Artists </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Developers </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Investors </p>
+
+          </div>
+
+           <div class="h-[240px] w-[150px]">
+       <p class="text-white font-bold ml-8 pt-7"> Useful links</p>
+        <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Support </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Free Mobile App </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Popular By Country </p>
+
+          </div>
+ 
+           <div class="h-[240px] w-[150px]">
+       <p class="text-white font-bold ml-8 pt-6"> Spotify Plans </p>
+        <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Premium Individual </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Premium Duo </p>
+         <p class="text-[#b3b3b3]  ml-8 pt-3 hover:font-bold hover:underline hover:cursor-pointer"> Premium Student </p>
+
+          </div>
+
+          <div class="mt-6 text-3xl text-white">
+
+            <i class="fa-brands fa-instagram pl-4  hover:cursor-pointer"></i>
+            <i class="fa-brands fa-twitter pl-4 hover:cursor-pointer"></i>
+            <i class="fa-brands fa-facebook pl-4 hover:cursor-pointer"></i>
+          </div>
+
+
+        </div>
+
+       <div class= "h-[100px] w-[190px] mt-14 ml-8 text-[#f5f5f5]">
+
+            <p>© 2025 Spotify AB</p>
+       </div>
+
+  </div>
+
+
+
+
+</body>
+</html>
